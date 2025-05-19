@@ -50,11 +50,15 @@
 
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1, h2, h3, .rock-salt {
-  font-family: inherit;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Trebuchet MS', serif;
+}
+
+p {
+  font-family: 'Verdana' sans-serif;
+  font-size: 22px;
 }
 
 .card {

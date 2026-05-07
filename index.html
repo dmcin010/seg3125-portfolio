@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Assignment 1 - Portfolio</title>
+    <title>Portfolio</title>
 </head>
 <body>
     
@@ -118,12 +118,12 @@
 
             <div class="col-lg-5">
               <div class="experience-side-card">
-                <a href="https://www.irb-cisr.gc.ca/en/Pages/index.aspx" class="text-decoration-none text-dark">
+                <a href="https://www.irb-cisr.gc.ca/en/Pages/index.aspx" class="text-decoration-none" style="color: inherit;">
                   <div class="card h-100">
-                    <img src="assets/irb.png" class="card-img-top" alt="Case Study 1">
+                    <img src="assets/irb.png" class="card-img-top" alt="Immigration Refugee Board">
                     <div class="card-body">
                       <h5 class="card-title text-center">Immigration Refugee Board of Canada</h5>
-                      <p class="card-text">Canada's largest independent administrative tribunal focused on fair and efficient immigration and refugee decisions. <a href="https://www.irb-cisr.gc.ca/en/board/Pages/index.aspx" target="_blank">Learn more</a></p>
+                      <p class="card-text">Canada's largest independent administrative tribunal focused on fair and efficient immigration and refugee decisions.</p>
                     </div>
                   </div>
                 </a>
@@ -193,7 +193,7 @@
                     <img src="assets/camhArticle.png" class="card-img-top" alt="CAMH">
                     <div class="card-body p-3">
                       <h6 class="card-title text-center mb-2">CAMH</h6>
-                      <p class="card-text small" style="font-size: 0.85rem;">Partnered on a VR and WebGL opioid overdose response simulation for immersive life-saving training.</p>
+                      <p class="card-text small" style="font-size: 0.85rem;">The Centre for Addiction and Mental Health (CAMH) is Canada's largest mental health teaching hospital and one of the world's leading research centres in its field.</p>
                     </div>
                   </div>
                 </a>
@@ -213,7 +213,7 @@
                     <div class="card h-100">
                       <img src="assets/lockheed.png" class="card-img-top" alt="Lockheed Martin">
                       <div class="card-body">
-                        <p class="card-text small">Contributed to aircraft maintenance VR simulation work supporting realistic, high-fidelity technical training outcomes.</p>
+                        <p class="card-text small">We specialize in defense tech, solving complex challenges, advancing scientific discovery and delivering innovative solutions that help our customers keep people safe.</p>
                       </div>
                     </div>
                   </a>
@@ -305,8 +305,44 @@
             </div>
           </a>
         </div>
+      </div>
     </div>
-  </div>
+
+    <!-- **** Capstone Project **** -->
+    <div class="section-studies section-padding experience-sections my-5">
+      <div class="m-3 p-3 rounded">
+        <h2 class="mb-4">Capstone Project - Project Iota</h2>
+
+        <div class="row g-4 align-items-center experience-pair">
+          <div class="col-lg-8">
+            <p class="mb-2"><strong>Technologies:</strong> PostgreSQL, TimescaleDB, Grafana, Docker, C++, Python</p>
+            <p class="mb-2"><em>Sep 2025 &ndash; Apr 2026</em></p>
+            <ul>
+              <li>Designed a realistic IoT testing environment, integrating physical/simulated devices to capture multi-vector data including sensor readings and network traffic logs for IoT security research.</li>
+              <li>Leveraged <strong>Docker</strong> to containerize and automate the deployment of the testing environment.</li>
+              <li>Implemented multi-protocol device communication (Matter, MQTT, Thread), simulating diverse real-world IoT environments and controlled cyber-attack scenarios to generate high-fidelity datasets.</li>
+              <li>Engineered a high-performance data pipeline using <strong>TimescaleDB</strong> (PostgreSQL-based) to ingest and store time-series data, optimizing query speeds for real-time analysis.</li>
+              <li>Designed and deployed an observability dashboard in <strong>Grafana</strong>, enabling real-time visualization of system health and security anomalies through custom SQL-driven metrics.</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+              <div class="card-body d-flex flex-column justify-content-center align-items-center py-5">
+                <h5 class="card-title fw-bold">Project IoTa</h5>
+                <p class="card-text text-muted mb-4">IoT Security & Data Pipeline Architecture</p>
+                <div>
+                  <i class="fa-brands fa-docker fa-2x mx-2 text-primary" title="Docker"></i>
+                  <i class="fa-brands fa-python fa-2x mx-2 text-warning" title="Python"></i>
+                  <i class="fa-solid fa-database fa-2x mx-2 text-secondary" title="Database"></i>
+                  <i class="fa-solid fa-chart-column fa-2x mx-2 text-danger" title="Grafana/Analytics"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   <!-- **** Footer **** -->
